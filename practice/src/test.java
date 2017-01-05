@@ -39,8 +39,4 @@ public class test {
 		System.out.println(smsJson);
 		
 	}
-//  organ_name=%B4%FA%C0%ED&organ_code=&valCode=
-//	organ_name=%B4%FA%C0%ED&organ_code=&currentPage=1&totalCount=10269&isTable=true
-//	organ_name=%B4%FA%C0%ED&organ_code=&currentPage=2&totalCount=10258&isTable=true
-//  organ_name=%B4%FA%C0%ED&organ_code=&currentPage=3&totalCount=10269&isTable=true
 }
