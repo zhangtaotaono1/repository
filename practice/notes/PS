@@ -1,0 +1,2 @@
+异常类总结：
+	finally之前如果执行了System.exit(0),那么finally将不会执行！
