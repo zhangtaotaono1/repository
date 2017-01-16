@@ -1,29 +1,22 @@
 package com.fmg.test;
 
 public class Person {
-	
-	private int age;
-	private String name;
-
+	{
+		System.out.println("我是代码块");
+	}
 	Person(){
-		System.out.println("print Person");
+		System.out.println("我是构造函数");
 	}
 	
-	Person(int age){
-		System.out.println("有参函数");
+	public void show(){
+		System.out.println("大家好");
 	}
 	
-	public void speak(){
-		System.out.println(name + ":" + age);
+	public static void print(){
+		System.out.println("打印静态方法");
 	}
-
-	public void setAge(int age) {
-		this.age = age;
+	static{
+		System.out.println("我是静态代码块");
+		
 	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	
 }
