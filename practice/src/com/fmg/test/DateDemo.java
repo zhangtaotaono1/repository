@@ -15,11 +15,30 @@ public class DateDemo {
 		/*try {
 			sub();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		e.printStackTrace();
 		}*/
+//		caleTest();
+		caleTest1();
+	}
+
+	/**
+	 * 写出2017年2月有多少天
+	 */
+	private static void caleTest1() {
+		int year = 2017;
+		show(year);
 		
-		caleTest();
+	}
+
+	private static void show(int year) {
+		Calendar c = Calendar.getInstance();
+		c.set(year, 2, 1);
+		c.add(Calendar.DAY_OF_MONTH, -1);
+		
+		int year1 = c.get(Calendar.YEAR);
+		int month = c.get(Calendar.MONTH) + 1;
+		int day = c.get(Calendar.DAY_OF_MONTH);
+		System.out.println(year1 + "-" + month + "-" + day);
 	}
 
 	private static void caleTest() {
