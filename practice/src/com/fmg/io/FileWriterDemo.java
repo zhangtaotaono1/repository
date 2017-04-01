@@ -1,6 +1,5 @@
 package com.fmg.io;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,6 +14,7 @@ public class FileWriterDemo {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 	}
 
 	private static void read() throws Exception {
