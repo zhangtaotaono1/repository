@@ -3,11 +3,38 @@ package com.fmg.test;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintStream;
 
 public class test {
 	public static void main(String args[]) {
 		
-		run();
+//		run();
+		try {
+			systemIn();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+	private static void systemIn() throws IOException {
+		InputStream is = System.in;
+		
+		int ch = is.read();
+		System.out.println(ch);
+		
+		ch = is.read();
+		System.out.println(ch);
+		
+		ch = is.read();
+		System.out.println(ch);
+		
+		ch = is.read();
+		System.out.println(ch);
+		
+		is.close();
 		
 	}
 
