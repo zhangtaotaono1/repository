@@ -10,7 +10,7 @@ public class test {
 		Output out = new Output(r);
 		//创建线程，执行路径
 		Thread r1 = new Thread(in);
-		Thread r2 = new Thread(out);
+		Thread r2 = new Thread(out); 
 		//开始线程
 		r1.start();
 		r2.start();
